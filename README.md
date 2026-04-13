@@ -1,5 +1,5 @@
 # Grass pollen and allergen prediction in Ourense
-This repository contains my final degree thesis in Environmental Sciences, focused on analyzing and modeling the concentration of *Poaceae* pollen and allergens in the atmosphere of Ourense (Spain).
+This repository contains my final degree thesis in Environmental Sciences (2017), focused on analyzing and modeling the concentration of *Poaceae* pollen and allergens in the atmosphere of Ourense (Spain).
 
 ## Project overview
 The project aimed to study how pollen and allergen concentrations vary over time and how they are influenced by meteorological variables such as:
