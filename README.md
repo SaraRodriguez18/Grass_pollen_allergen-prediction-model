@@ -1,17 +1,17 @@
 # Grass pollen and allergen prediction in Ourense
-This repository contains my final degree thesis focused on analyzing and modeling the concentration of *Poaceae* pollen and allergens in the atmosphere of Ourense (Spain).
+This repository contains my final degree thesis in Environmental Sciences, focused on analyzing and modeling the concentration of *Poaceae* pollen and allergens in the atmosphere of Ourense (Spain).
 
 ## Project overview
 The project aimed to study how pollen and allergen concentrations vary over time and how they are influenced by meteorological variables such as:
-- temperature
-- precipitation
-- relative humidity
-- sunshine hours
-- wind speed
+- Temperature
+- Precipitation
+- Relative humidity
+- Sunshine hours
+- Wind speed
 
 Two predictive models were developed:
-- one for pollen concentration
-- one for allergen concentration
+- 1 model for pollen concentration
+- 1 model for allergen concentration
 
 ## Objectives
 - Analyze the concentration of *Poaceae* pollen and allergens in the atmosphere of Ourense
@@ -19,8 +19,16 @@ Two predictive models were developed:
 - Build predictive models relating atmospheric concentrations to environmental variables
 
 ## Methodology
-The analysis was carried out using statistical tools such as **STATISTICA** and **Excel**.
-While **no programming languages** were used, the project involved the development of predictive models through statistical techniques applied to real-world environmental data.
+### Geospatial Analysis
+Geospatial analysis was performed using **QGIS** (**Geographic Information System**).
+The workflow included two main stages:
+1. **Georeferencing**: assigning real-world coordinates to a scanned raster image using Ground Control Points (GCPs), in order to correct distortions and align the map with a coordinate reference system.
+2. **Digitization**: creating vector layers (points, lines, and polygons) by manually tracing features over the georeferenced image.
+
+This process made it possible to accurately represent the surrounding study area as part of the project.
+
+### Statistical Analysis
+The analysis was carried out using statistical tools such as **STATISTICA** and **Excel**, applying predictive modeling techniques to real-world environmental data.
 
 This work focused on identifying relationships between meteorological variables and airborne pollen/allergen concentrations, and building models capable of predicting their variation over time.
 
@@ -28,10 +36,10 @@ This project reflects an early application of **data analysis and modeling in an
 
 ## Relevance
 This project sits at the intersection of:
-- environmental science
-- aerobiology
-- public health
-- climatology
+- Environmental Science
+- Aerobiology
+- Public health
+- Climate Change
 
 ## Files
 - `PollenAllergenPrediction_SaraRP.pdf` → presentation of the thesis in Environmental Sciences.
